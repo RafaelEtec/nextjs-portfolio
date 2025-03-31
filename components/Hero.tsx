@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils"
+import { FaLocationArrow } from "react-icons/fa6"
 import MagicButton from "./ui/MagicButton"
 import { Spotlight } from "./ui/Spotlight"
 import { TextGenerateEffect } from "./ui/TextGenerateEffect"
@@ -11,7 +12,7 @@ const Hero = () => {
             <Spotlight className="-top-10 left-full h-[80vh] w-[50vw]" fill="gray" />
             <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="gray" />
         </div>
-        <div className="flex h-screen w-full items-center justify-center bg-primary dark:bg-primary absolute top-0  left-0">
+        <div className="h-screen w-full dark:bg-black-100 bg-primary dark:bg-grid-white/[0.03] bg-grid-black/[0.2] absolute top-0 left-0 flex items-center justify-center">
             <div
                 className={cn(
                 "absolute inset-0",
@@ -24,8 +25,8 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center relative my-20 z-10">
-            <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vh] flex flex-col items-center justify-center">
-                <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Web Dinamismo Mágico com Next.js</h2>
+            <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+                <h2 className="uppercase tracking-widest text-xs text-center text-purple-100 max-w-80">Web Dinamismo Mágico com Next.js</h2>
                 
                 <TextGenerateEffect
                   className="text-center text-[40px] md:text-5xl lg:text-6xl"
@@ -39,6 +40,8 @@ const Hero = () => {
                 <a href="#about">
                   <MagicButton
                     title="Meus Projetos"
+                    icon={<FaLocationArrow />}
+                    position="right"
                   />
                 </a>
             </div>

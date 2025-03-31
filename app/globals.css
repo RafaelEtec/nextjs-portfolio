@@ -3,6 +3,7 @@
 @theme {
     --color-primary: #101010;
     --color-secondary: #0F0F0F;
+    --color-fill-card: #141414;
 
     /* Acernity stuff */
     /* Spotlight */
@@ -83,6 +84,19 @@
         --ring: 240 4.9% 83.9%;
     }
 }
+
+@layer base {
+    * {
+        @apply border-white !scroll-smooth;
+    }
+    body {
+        @apply bg-primary text-white;
+    }
+    button {
+        @apply active:outline-none;
+    }
+}
+
 
 @layer utilities {
     .heading {
