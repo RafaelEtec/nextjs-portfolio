@@ -4,7 +4,7 @@ import { PinContainer } from "./ui/pin"
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-36" id="projects">
         <h1 className="heading">
             Uma breve seleção de {' '}
             <span className="text-purple-300">Projetos Recentes</span>
@@ -16,7 +16,7 @@ const RecentProjects = () => {
             }) => (
                 <div key={id} className="sm:h[41rem] h-[32rem] lg:min-h[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
                     <PinContainer title={link} href={link}>
-                        <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[20vh] lg:h-[18vh] mb-10">
+                        <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[20vh] lg:h-[28vh] mb-10">
                             <img src={img} alt={title} className="z-10 absolute bottom-0"/>
                         </div>
                         <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">

@@ -4,10 +4,8 @@ import animationData from "@/data/confetti.json";
 import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
-import { BackgroundGradientAnimation } from "./GradientBg";
+import { EvervaultCard } from "./EverhaultCard";
 import { GlobeDemo } from "./GridGlobe";
-import MagicButton from "./MagicButton";
 
 const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
@@ -96,11 +94,6 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 6 && (
-          <BackgroundGradientAnimation>
-            {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
-          </BackgroundGradientAnimation>
-        )}
 
         <div className={cn(titleClassName, "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10")}>
           <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
@@ -135,20 +128,8 @@ export const BentoGridItem = ({
             </div>
           )}
 
-          {id === 6 && (
-            <div className="mt-5 relative">
-              <div className={`absolute -bottom-5 right-0`}>
-                <Lottie options={defaultOptions} height={200} width={400}/>
-              </div>
-
-              <MagicButton
-                title={copied ? "E-mail copiado!" : "Me mande um E-mail"}
-                icon={<IoCopyOutline />}
-                position="left"
-                otherClasses="`!bg-[#161a31]`"
-                handleClick={handleCopy}
-              />
-            </div>
+          { id === 7 && (
+            <EvervaultCard text="Gostaria de iniciar um projeto comigo?" />
           )}
         </div>
       </div>
