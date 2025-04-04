@@ -1,4 +1,3 @@
-
 const Go = () => {
   return (
     <div className="py-36">
@@ -8,7 +7,7 @@ const Go = () => {
                     Que tal um Joguinho?
                 </p>
 
-                <iframe src="main.html" width="640" height="480"></iframe>
+                <iframe src="" width="640" height="480"></iframe>
             </div>
         </div>
     </div>
