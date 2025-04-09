@@ -105,11 +105,19 @@ export const projects = [
   {
     id: 5,
     title: "Calculadora IOS - React Native",
-    des: "O projeto mais comum entre os programadores, não poderia deixar de exibir a minha versão aprimorada",
+    des: "O projeto mais comum entre os programadores, não poderia deixar de exibir a minha versão aprimorada.",
     img: "/fav_b_w.png",
     iconLists: ["/re.svg"],
     link: "https://github.com/RafaelEtec/react-native-calculator",
   },
+  {
+    id: 6,
+    title: "NextChat - Next.js & Typescript",
+    des: "Plataforma de comunicação por chat, inspirado no Discord.",
+    img: "/nextchat-thumbnail.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/RafaelEtec/nextchat",
+  }
 ];
 
 export const testimonials = [
