@@ -3,7 +3,7 @@
 ## Bem vindo ao meu Portfólio 👋
 
 ## 🛠️ Acesse
-- [Meu portfólio](https://nextjs-portfolio-six-snowy-18.vercel.app/)
+- [Meu portfólio](https://rafaelgoulart.vercel.app/)
 
 ## ⚙️ Tech Stack
 - [Next.js](https://nextjs.org/)
