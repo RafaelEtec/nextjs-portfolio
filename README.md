@@ -11,7 +11,7 @@
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vercel](https://vercel.com/) (Deploy)
 - [Aceternity](https://ui.aceternity.com/)
-- [Go](https://go.dev/) & [Ebiten Engine](https://ebitengine.org/)
+- [Sentry](https://sentry.io/)
 
 ## 💡 Inspiração
 
