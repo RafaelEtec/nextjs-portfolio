@@ -35,7 +35,7 @@ const Hero = () => {
                   Olá, Me chamo Rafael, tenho 22 anos, e sou um Desenvolvedor Fullstack
                 </p>
 
-                <a href="#about">
+                <a href="#projects">
                   <MagicButton
                     title="Meus Projetos"
                     icon={<FaLocationArrow />}
