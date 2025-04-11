@@ -46,7 +46,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title: "Desenvolvendo a integração de aplicações Golang à uma página HTML",
