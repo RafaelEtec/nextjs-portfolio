@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -109,6 +108,14 @@ export const projects = [
     iconLists: ["/re.svg"],
     link: "https://github.com/RafaelEtec/react-native-calculator",
   },
+  {
+    id: 6,
+    title: "NextChat - Next.js & Typescript",
+    des: "Plataforma de comunicação por chat, inspirado no Discord.",
+    img: "/nextchat-thumbnail.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/RafaelEtec/nextchat",
+  }
 ];
 
 export const socialMedia = [
