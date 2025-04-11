@@ -32,7 +32,7 @@ const Hero = () => {
                 />
 
                 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                  Olá, Me chamo Rafael, e sou um Desenvolvedor Fullstack
+                  Olá, Me chamo Rafael, tenho 22 anos, e sou um Desenvolvedor Fullstack
                 </p>
 
                 <a href="#about">
