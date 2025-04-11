@@ -3,7 +3,7 @@
 ## Bem vindo ao meu Portfólio 👋
 
 ## 🛠️ Acesse
-- [Meu portfólio](https://nextjs-portfolio-six-snowy-18.vercel.app/)
+- [Meu portfólio](https://rafaelgoulart.vercel.app/)
 
 ## ⚙️ Tech Stack
 - [Next.js](https://nextjs.org/)
@@ -11,7 +11,6 @@
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vercel](https://vercel.com/) (Deploy)
 - [Aceternity](https://ui.aceternity.com/)
-- [Go](https://go.dev/) & [Ebiten Engine](https://ebitengine.org/)
 
 ## 💡 Inspiração
 
