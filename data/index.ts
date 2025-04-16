@@ -70,6 +70,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "NextChat - Next.js & Typescript",
+    des: "Plataforma de comunicação por chat, inspirado no Discord.",
+    img: "/nextchat-thumbnail.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/RafaelEtec/nextchat",
+  },
+  {
+    id: 2,
     title: "Segue o Líder - React Native",
     des: "Aplicativo móvel multiplataforma feito para guardar pontos do UNO/Baralho/Monopoly entre outros jogos da galera.",
     img: "/segueolider-thumbnail.png",
@@ -77,7 +85,7 @@ export const projects = [
     link: "https://github.com/RafaelEtec/segue-o-lider",
   },
   {
-    id: 2,
+    id: 3,
     title: "BookStorm - Next.js & Typescript",
     des: "Uma plataforma monólito moderna e escalável. Permite empréstimo de livros com notificações automáticas, gestão de usuários e análise de dados.",
     img: "bookstorm-thumbnail.png",
@@ -85,7 +93,7 @@ export const projects = [
     link: "https://github.com/RafaelEtec/bookstorm",
   },
   {
-    id: 3,
+    id: 4,
     title: "Jogos em Go",
     des: "Alguns jogos criados em Go com Ebiten Engine.",
     img: "/fav_b_w.png",
@@ -93,7 +101,7 @@ export const projects = [
     link: "https://github.com/RafaelEtec",
   },
   {
-    id: 4,
+    id: 5,
     title: "LiveChat - SpringBoot - WebSocket",
     des: "Aplicação simples que permite a comunicação entre pessoas numa conversa de grupo.",
     img: "/fav_b_w.png",
@@ -101,21 +109,13 @@ export const projects = [
     link: "https://github.com/RafaelEtec/livechatms-adaptation",
   },
   {
-    id: 5,
+    id: 6,
     title: "Calculadora IOS - React Native",
     des: "O projeto mais comum entre os programadores, não poderia deixar de exibir a minha versão aprimorada.",
     img: "/fav_b_w.png",
     iconLists: ["/re.svg"],
     link: "https://github.com/RafaelEtec/react-native-calculator",
   },
-  {
-    id: 6,
-    title: "NextChat - Next.js & Typescript",
-    des: "Plataforma de comunicação por chat, inspirado no Discord.",
-    img: "/nextchat-thumbnail.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://github.com/RafaelEtec/nextchat",
-  }
 ];
 
 export const socialMedia = [
